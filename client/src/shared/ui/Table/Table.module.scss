@@ -1,0 +1,31 @@
+.table_wrapper {
+  overflow-y: auto;
+  height: 420px;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+
+  &__header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  &__header__items {
+    padding-bottom: 8px;
+  }
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.items {
+  border-top: 1px solid #e5e7eb;
+  padding: 16px 0;
+  text-align: center;
+}

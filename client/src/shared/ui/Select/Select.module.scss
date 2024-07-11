@@ -1,0 +1,46 @@
+.select {
+  position: relative;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  position: relative;
+  min-width: 50px;
+  box-shadow: 0px 2px 5px rgba(103, 110, 118, 0.08),
+    0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  background-color: white;
+}
+
+.options {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 4px;
+  min-width: 50px;
+  width: 100%;
+  background-color: white;
+  padding: 4px;
+  z-index: 10;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(103, 110, 118, 0.08),
+    0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.option {
+  text-align: center;
+  list-style: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.active {
+  background-color: #e5e7ea;
+}

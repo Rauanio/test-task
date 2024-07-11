@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  display: block;
+}
+
+.input {
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #09090b;
+  padding: 4px;
+  height: 35px;
+}
+
+.error {
+  color: red;
+}

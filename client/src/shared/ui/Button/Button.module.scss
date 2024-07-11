@@ -1,0 +1,39 @@
+.button {
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: #09090b;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 2px 5px rgba(103, 110, 118, 0.08),
+    0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.outline {
+  background-color: transparent;
+  color: #09090b;
+}
+
+.ghost {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #09090b;
+  box-shadow: none;
+}
+
+.destructive {
+  border: none;
+  background-color: #ef4444;
+  color: white;
+}
+
+.disabled {
+  border: none;
+  opacity: 0.6;
+  pointer-events: none;
+}
